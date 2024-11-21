@@ -1,7 +1,5 @@
 import AboutSection from "@/components/Home/AboutSection";
 import HeroSection from "@/components/Home/HeroSection";
-import Navbar from "@/components/NavBar";
-import Image from "next/image";
 import Head from "next/head";
 import Services from "@/components/Home/Services";
 import Portfolio from "@/components/Home/Portfolio";
