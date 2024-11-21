@@ -9,36 +9,37 @@ const HeroSection = () => {
                 Hey There 👋 I am
                 <span className="dh jh wg zj kk hh ak pk kb bb">
                   {" "}
-                  Daniel Jack{" "}
+                  Felicity Essien{" "}
                 </span>
               </h1>
               <h2 className="eh lh _g lk oa">
                 Professional
-                <span className="jh">Graphic Designer </span>
+                <span className="jh"> Software Engineer </span>
               </h2>
               <p className="tc eh lh ug ih cb">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                interdum consequat convallis.
+                Innovating with Simplicity, Designing with Precision, and
+                Solving Problems that Matter. Your Vision, My Code — Together,
+                We Create Magic.
               </p>
               <div className="mb id">
                 <a
-                  href="javascript:void(0)"
+                  href="/#contact"
                   className="ug fh kh pe kf lf pa yi si td ai ci ei"
                 >
                   Contact Me
                 </a>
-                <a
+                {/* <a
                   href="javascript:void(0)"
                   className="ug fh kh qe kf lf yi si td ai ci ei"
                 >
                   Learn More
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
           <div className="bc pl/2 md df">
             <div className="e db al z 2xl:ud-absolute 2xl:ud-bottom-0 2xl:ud-right-40">
-              <img src="images/hero-image.png" alt="image" className="oc fa" />
+              <img src="images/felz.png" alt="image" className="oc fa" />
               <span className="d pn r nn">
                 <svg
                   width="40"

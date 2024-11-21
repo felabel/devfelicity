@@ -10,10 +10,7 @@ const Portfolio = () => {
               <div className="vc fa sg gb">
                 <span className="fh _g mh kb ta"> Creative Portfolios </span>
                 <h2 className="dh jh wg wj kk oa">Recent Works</h2>
-                <p className="eh _g lh">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
-                </p>
+                <p className="eh _g lh">Projects I have worked on</p>
               </div>
             </div>
             <div className="bc df">

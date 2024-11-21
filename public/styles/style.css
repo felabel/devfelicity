@@ -1121,6 +1121,7 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .hd{
   flex-wrap: wrap;
+  justify-content: center;
 }
 .id{
   align-items: center;

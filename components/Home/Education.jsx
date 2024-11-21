@@ -15,9 +15,10 @@ const Education = () => {
                   </span>
                   <h2 className="dh jh wg wj kk oa">My Resume</h2>
                   <p className="eh _g lh">
-                    There are many variations of passages of Lorem Ipsum
-                    available but the majority have suffered alteration in some
-                    form.
+                    Take a closer look at my career milestones, technical
+                    expertise, and the impactful projects I’ve worked on - A
+                    reflection of my dedication to creating innovative and
+                    efficient software solutions.
                   </p>
                 </div>
               </div>
@@ -30,17 +31,19 @@ const Education = () => {
                 <div className="bc pl/2 df">
                   <div className="tl an bc ib mg uj em gm cl im e bg">
                     <span className="d i g wk xk mc yb td oe yd he"></span>
-                    <h3 className="fh zg jh qa">UI/UX Designer</h3>
-                    <p className="fh ug lh ua">Google INC | New York</p>
+                    <h3 className="fh zg jh qa">Software Engineer</h3>
+                    <p className="fh ug lh ua">Bumpa | Lagos, Nigeria</p>
                     <span className="nb id kd if df td pe kh ah fh oa">
                       {" "}
-                      2011 - 2013{" "}
+                      March 2023 - Present{" "}
                     </span>
                     <p className="eh ug lh">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusm tempor incididunt ut labore et dolore magna
-                      aliqua Loremipsum dolor sit amet, consectetur adipisicing
-                      elit.
+                      I developed an E-commerce business management app using
+                      ReactJS and TypeScript, building features like
+                      staff/location management, POS, ads integration, and CRM
+                      tools. I collaborated with cross-functional teams to scope
+                      features, plan sprints, and enhance the app's
+                      functionality.
                     </p>
                   </div>
                 </div>
@@ -49,36 +52,36 @@ const Education = () => {
                 <div className="bc pl/2 df">
                   <div className="tl an bc mg uj em dl e bg">
                     <span className="d i g yk mc yb td oe yd he"></span>
-                    <h3 className="fh zg jh qa">Specialization Course</h3>
-                    <p className="fh ug lh ua">
-                      Stanford University | New York
-                    </p>
+                    <h3 className="fh zg jh qa">Software Engineer</h3>
+                    <p className="fh ug lh ua">Regxta | Lagos, Nigeria</p>
                     <span className="nb id kd if df td pe kh ah fh oa">
                       {" "}
-                      2017 - 2018{" "}
+                      Sept. 2023 - Sept. 2024{" "}
                     </span>
                     <p className="eh ug lh">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusm tempor incididunt ut labore et dolore magna
-                      aliqua Loremipsum dolor sit amet, consectetur adipisicing
-                      elit.
+                      Developed Admin Web App: Created features for managing
+                      Loan, agents, customers, transactions, expenses records
+                      and various CRUD functionalities, reducing manual
+                      processes by 70%.
                     </p>
                   </div>
                 </div>
                 <div className="bc pl/2 df">
                   <div className="tl an bc ib mg uj em gm cl im e bg">
                     <span className="d i g wk xk mc yb td oe yd he"></span>
-                    <h3 className="fh zg jh qa">Web Designer</h3>
-                    <p className="fh ug lh ua">Facebook INC | New York</p>
+                    <h3 className="fh zg jh qa">QA Engineer, Volunteer</h3>
+                    <p className="fh ug lh ua">Ushahidi | Nairobi, Kenya</p>
                     <span className="nb id kd if df td pe kh ah fh oa">
                       {" "}
-                      2014 - 2016{" "}
+                      July 2024 - Present{" "}
                     </span>
                     <p className="eh ug lh">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusm tempor incididunt ut labore et dolore magna
-                      aliqua Loremipsum dolor sit amet, consectetur adipisicing
-                      elit.
+                      As a Quality Assurance Tester at Ushahidi, I’m responsible
+                      for regression testing, creating detailed test case
+                      documents, and writing end-to-end tests using Jest and
+                      Cypress. My focus is ensuring the quality and
+                      functionality of applications, contributing to the
+                      organization's mission of civil rights and social action.
                     </p>
                   </div>
                 </div>
@@ -87,22 +90,75 @@ const Education = () => {
                 <div className="bc pl/2 df">
                   <div className="tl an bc mg uj em dl e bg">
                     <span className="d i g yk mc yb td oe yd he"></span>
-                    <h3 className="fh zg jh qa">Bachelor Degree</h3>
+                    <h3 className="fh zg jh qa">Software Engineer Programme</h3>
                     <p className="fh ug lh ua">
-                      Stanford University | New York
+                      ALX Africa | specialized in Backend
                     </p>
                     <span className="nb id kd if df td pe kh ah fh oa">
                       {" "}
-                      2019 - 2021{" "}
+                      July 2023 - Sept. 2024{" "}
                     </span>
                     <p className="eh ug lh">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusm tempor incididunt ut labore et dolore magna
-                      aliqua Loremipsum dolor sit amet, consectetur adipisicing
-                      elit.
+                      A fullstack 1 year software engineering program
+                      specialized in backed. Skills include; Reactjs, Technical
+                      writing, Testing, nodesjs, Mongodb.
                     </p>
                   </div>
                 </div>
+                <div className="bc pl/2 df">
+                  <div className="tl an bc ib mg uj em gm cl im e bg">
+                    <span className="d i g wk xk mc yb td oe yd he"></span>
+                    <h3 className="fh zg jh qa">Frontend Engineer</h3>
+                    <p className="fh ug lh ua">Pricepally | Lagos, Nigeria</p>
+                    <span className="nb id kd if df td pe kh ah fh oa">
+                      {" "}
+                      2022 - 2023{" "}
+                    </span>
+                    <p className="eh ug lh">
+                      Rebuilt Online Grocery Store: Transformed the website from
+                      plain JavaScript to an optimized ReactJS and Redux web
+                      app, boosting sales by 20% in 2023- pricepally.com
+                    </p>
+                  </div>
+                </div>
+                <div className="bc pl/2 df"></div>
+                <div className="bc pl/2 df"></div>
+                <div className="bc pl/2 df"></div>
+                <div className="bc pl/2 df"></div>
+                <div className="bc pl/2 df">
+                  <div className="tl an bc mg uj em dl e bg">
+                    <span className="d i g yk mc yb td oe yd he"></span>
+                    <h3 className="fh zg jh qa">Bachelor's Degree</h3>
+                    <p className="fh ug lh ua">Univerisity of Uyo | Nigeria</p>
+                    <span className="nb id kd if df td pe kh ah fh oa">
+                      {" "}
+                      Jan. 2016 - May. 2021{" "}
+                    </span>
+                    <p className="eh ug lh">
+                      A fullstack 1 year software engineering program
+                      specialized in backed. Skills include; Reactjs, Technical
+                      writing, Testing, nodesjs, Mongodb.
+                    </p>
+                  </div>
+                </div>
+                <div className="bc pl/2 df">
+                  <div className="tl an bc ib mg uj em gm cl im e bg">
+                    <span className="d i g wk xk mc yb td oe yd he"></span>
+                    <h3 className="fh zg jh qa">Frontend Engineer</h3>
+                    <p className="fh ug lh ua">Parquest | Kansas city</p>
+                    <span className="nb id kd if df td pe kh ah fh oa">
+                      {" "}
+                      2021 - 2022{" "}
+                    </span>
+                    <p className="eh ug lh">
+                      I was part of the web application development team to
+                      manage and build an application where financial donations
+                      can be made
+                    </p>
+                  </div>
+                </div>
+                <div className="bc pl/2 df"></div>
+                <div className="bc pl/2 df"></div>
               </div>
             </div>
           </div>

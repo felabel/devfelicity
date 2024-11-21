@@ -57,7 +57,7 @@ const Navbar = () => {
         <div className="a">
           <div className="mb ca id ld e">
             <div className="df cc oc">
-              <a href="index.html" className="header-logo bc kb ef xl">
+              <a href="/" className="header-logo bc kb ef xl">
                 <img src="images/logo.svg" alt="logo" className="bc" />
               </a>
             </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
                   className="d hf yl zl dn oe vl th qd pc bc rl il h j ob el sk pm"
                 >
                   <ul className="ln fl">
-                    <li className="e dj">
+                    {/* <li className="e dj">
                       <a
                         href="#home"
                         className="menu-scroll ug jh gj if _l gl am mb ea zk"
@@ -86,7 +86,7 @@ const Navbar = () => {
                         {" "}
                         Home{" "}
                       </a>
-                    </li>
+                    </li> */}
                     <li className="e dj">
                       <a
                         href="#about"
@@ -119,7 +119,7 @@ const Navbar = () => {
                         Contact
                       </a>
                     </li>
-                    <li className="e dj submenu-item">
+                    {/* <li className="e dj submenu-item">
                       <a
                         href="javascript:void(0)"
                         className="ug jh gj if _l gl em fm mb ea zk _k vm e fi ki ji ni oi pi mi rm gi hi/2 li ii"
@@ -150,7 +150,7 @@ const Navbar = () => {
                           Blog Details Page{" "}
                         </a>
                       </div>
-                    </li>
+                    </li> */}
                   </ul>
                 </nav>
               </div>
