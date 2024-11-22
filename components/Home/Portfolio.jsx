@@ -1,6 +1,9 @@
-import React from "react";
+import { getProjects } from "@/lib/contentful";
 
-const Portfolio = () => {
+const Portfolio = async () => {
+  const projects = await getProjects();
+
+  console.log("projects", projects);
   return (
     <div>
       <section id="portfolio" className="ig jg se">
