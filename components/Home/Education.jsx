@@ -195,8 +195,8 @@ const Education = () => {
                   y2="1060.35"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#4A6CF7" />
-                  <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                  <stop stopColor="#6E2FE3" />
+                  <stop offset="1" stopColor="#6E2FE3" stopOpacity="0" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_0:1"
@@ -206,8 +206,8 @@ const Education = () => {
                   y2="1060.35"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#4A6CF7" />
-                  <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                  <stop stopColor="#6E2FE3" />
+                  <stop offset="1" stopColor="#6E2FE3" stopOpacity="0" />
                 </linearGradient>
               </defs>
             </svg>
@@ -243,8 +243,8 @@ const Education = () => {
                   y2="1030.82"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#4A6CF7" />
-                  <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                  <stop stopColor="#6E2FE3" />
+                  <stop offset="1" stopColor="#6E2FE3" stopOpacity="0" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_0:1"
@@ -254,8 +254,8 @@ const Education = () => {
                   y2="1060.35"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#4A6CF7" />
-                  <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                  <stop stopColor="#6E2FE3" />
+                  <stop offset="1" stopColor="#6E2FE3" stopOpacity="0" />
                 </linearGradient>
               </defs>
             </svg>

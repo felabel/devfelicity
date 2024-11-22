@@ -64,8 +64,8 @@ const ProjectDetails = () => {
                   y2="563.705"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#4A6CF7" />
-                  <stop offset="1" stopColor="#4A6CF7" stop-opacity="0" />
+                  <stop stopColor="#6E2FE3" />
+                  <stop offset="1" stopColor="#6E2FE3" stop-opacity="0" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_0:1"
@@ -75,8 +75,8 @@ const ProjectDetails = () => {
                   y2="563.705"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#4A6CF7" />
-                  <stop offset="1" stopColor="#4A6CF7" stop-opacity="0" />
+                  <stop stopColor="#6E2FE3" />
+                  <stop offset="1" stopColor="#6E2FE3" stop-opacity="0" />
                 </linearGradient>
               </defs>
             </svg>
@@ -105,8 +105,8 @@ const ProjectDetails = () => {
                   y2="563.705"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#4A6CF7" />
-                  <stop offset="1" stopColor="#4A6CF7" stop-opacity="0" />
+                  <stop stopColor="#6E2FE3" />
+                  <stop offset="1" stopColor="#6E2FE3" stop-opacity="0" />
                 </linearGradient>
               </defs>
             </svg>

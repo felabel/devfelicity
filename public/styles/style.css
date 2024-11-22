@@ -557,7 +557,8 @@ body {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-color: #6E2FE3;
+  /* --tw-ring-color: rgb(59 130 246 / 0.5); */
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -604,7 +605,8 @@ body {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
+  /* --tw-ring-color: rgb(59 130 246 / 0.5); */
+  --tw-ring-color: #6E2FE3;
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -695,7 +697,7 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .sticky .menu-scroll.active{
   --tw-text-opacity: 1;
-  color: rgb(74 108 247 / var(--tw-text-opacity));
+  color: rgb(110 47 227 / var(--tw-text-opacity));
 }
 .navbarTogglerActive > span:nth-child(1){
   top: 7px;
@@ -750,7 +752,7 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .input-field:focus{
   --tw-border-opacity: 1;
-  border-color: rgb(74 108 247 / var(--tw-border-opacity));
+  border-color: rgb(110 47 227 / var(--tw-border-opacity));
 }
 .input-field:focus-visible{
   --tw-shadow: 0 0 #0000;
@@ -759,7 +761,7 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .portfolio-buttons button.active{
   --tw-bg-opacity: 1;
-  background-color: rgb(74 108 247 / var(--tw-bg-opacity));
+  background-color: rgb(110 47 227 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1209,7 +1211,7 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .he{
   --tw-border-opacity: 1;
-  border-color: rgb(74 108 247 / var(--tw-border-opacity));
+  border-color: rgb(110 47 227 / var(--tw-border-opacity));
 }
 .ie{
   --tw-border-opacity: 1;
@@ -1238,7 +1240,7 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .pe{
   --tw-bg-opacity: 1;
-  background-color: rgb(74 108 247 / var(--tw-bg-opacity));
+  background-color: rgb(110 47 227 / var(--tw-bg-opacity));
 }
 .qe{
   --tw-bg-opacity: 1;
@@ -1511,7 +1513,7 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .mh{
   --tw-text-opacity: 1;
-  color: rgb(74 108 247 / var(--tw-text-opacity));
+  color: rgb(110 47 227 / var(--tw-text-opacity));
 }
 .nh{
   -webkit-text-decoration-line: underline;
@@ -1578,7 +1580,8 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .zh{
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(74 108 247 / var(--tw-ring-opacity));
+  /* --tw-ring-color: rgb(110 47 227 / var(--tw-ring-opacity)); */
+  --tw-ring-color: #6E2FE3;
 }
 ._h{
   --tw-grayscale: grayscale(100%);
@@ -1653,11 +1656,11 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .qi:hover{
   --tw-border-opacity: 1;
-  border-color: rgb(74 108 247 / var(--tw-border-opacity));
+  border-color: rgb(110 47 227 / var(--tw-border-opacity));
 }
 .ri:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(74 108 247 / var(--tw-bg-opacity));
+  background-color: rgb(110 47 227 / var(--tw-bg-opacity));
 }
 .si:hover{
   --tw-bg-opacity: 0.9;
@@ -1667,7 +1670,7 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .ui:hover{
   --tw-text-opacity: 1;
-  color: rgb(74 108 247 / var(--tw-text-opacity));
+  color: rgb(110 47 227 / var(--tw-text-opacity));
 }
 .vi:hover{
   --tw-text-opacity: 1;
@@ -1716,7 +1719,7 @@ input[type="checkbox"]:checked ~ label span svg{
 }
 .dj:hover .gj{
   --tw-text-opacity: 1;
-  color: rgb(74 108 247 / var(--tw-text-opacity));
+  color: rgb(110 47 227 / var(--tw-text-opacity));
 }
 .dj:hover .hj{
   --tw-text-opacity: 1;

@@ -58,7 +58,7 @@ const Navbar = () => {
           <div className="mb ca id ld e">
             <div className="df cc oc">
               <a href="/" className="header-logo bc kb ef xl">
-                <img src="images/logo.svg" alt="logo" className="bc" />
+                <img src="images/devfelz.svg" alt="logo" className="bc" />
               </a>
             </div>
             <div className="mb df ld id bc">
@@ -113,6 +113,14 @@ const Navbar = () => {
                     </li>
                     <li className="e dj">
                       <a
+                        href="#education"
+                        className="menu-scroll ug jh gj if _l gl am mb ea zk _k vm"
+                      >
+                        Experience
+                      </a>
+                    </li>
+                    <li className="e dj">
+                      <a
                         href="#contact"
                         className="menu-scroll ug jh gj if _l gl am mb ea zk _k vm"
                       >
@@ -156,10 +164,11 @@ const Navbar = () => {
               </div>
               <div className="nj jd ob xf gm">
                 <a
-                  href="#contact"
+                  href="/01Felicity_Cv.pdf"
                   className="ug dh kh pe td kf lf jk bm en yi si ai ei ci"
+                  download="01Felicity_Cv.pdf"
                 >
-                  Download CV
+                  Download Resume
                 </a>
               </div>
             </div>

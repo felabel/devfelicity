@@ -28,12 +28,12 @@ const HeroSection = () => {
                 >
                   Contact Me
                 </a>
-                {/* <a
+                <a
                   href="javascript:void(0)"
                   className="ug fh kh qe kf lf yi si td ai ci ei"
                 >
                   Learn More
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const HeroSection = () => {
                 >
                   <path
                     d="M9.31451 3.18282L32.4926 6.24789C36.3084 6.75249 38.147 11.1986 35.8021 14.2508L21.5587 32.7911C19.2138 35.8434 14.444 35.2126 12.9731 31.6558L4.03852 10.0504C2.56762 6.49355 5.49873 2.67822 9.31451 3.18282Z"
-                    stroke="#4A6CF7"
+                    stroke="#6E2FE3"
                     strokeWidth="6"
                   />
                 </svg>
@@ -114,7 +114,7 @@ const HeroSection = () => {
                 y2="713"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" />
+                <stop stopColor="#6E2FE3" />
                 <stop offset="1" stopColor="#1E3BB3" />
               </linearGradient>
             </defs>
