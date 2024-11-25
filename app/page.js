@@ -32,7 +32,7 @@ export default function Home() {
       <AboutSection />
       <Services />
       <Portfolio />
-      <Clients />
+      {/* <Clients /> */}
       {/* <CtaSection /> */}
       <Education />
       {/* <Pricing /> */}

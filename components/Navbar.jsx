@@ -1,55 +1,38 @@
 "use client";
+import { useRouter } from "next/navigation"; // Import from next/navigation
 import { useEffect } from "react";
 const Navbar = () => {
+  const router = useRouter();
+
   useEffect(() => {
     console.log("Menu scroll script loaded");
     const pageLink = document.querySelectorAll(".menu-scroll");
 
     pageLink.forEach((elem) => {
       elem.addEventListener("click", (e) => {
-        console.log("Menu item clicked:", elem);
-
         e.preventDefault();
-        document.querySelector(elem.getAttribute("href")).scrollIntoView({
-          behavior: "smooth",
-          offsetTop: 1 - 60,
-        });
+
+        const target = elem.getAttribute("href"); // e.g., "#about"
+        const targetSection = document.querySelector(target);
+
+        if (targetSection) {
+          // If the section exists on the current page, scroll to it
+          targetSection.scrollIntoView({
+            behavior: "smooth",
+            offsetTop: 1 - 60,
+          });
+        } else {
+          // If the section doesn't exist, navigate to the homepage with a query parameter
+          console.log("Navigating to homepage for:", target);
+          router.push(`/${target}`);
+        }
       });
     });
 
-    const onScroll = () => {
-      const sections = document.querySelectorAll(".menu-scroll");
-      const scrollPos =
-        window.pageYOffset ||
-        document.documentElement.scrollTop ||
-        document.body.scrollTop;
-
-      for (let i = 0; i < sections.length; i++) {
-        const currLink = sections[i];
-        const val = currLink.getAttribute("href");
-        const refElement = document.querySelector(val);
-        const scrollTopMinus = scrollPos + 73;
-
-        if (
-          refElement.offsetTop <= scrollTopMinus &&
-          refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
-        ) {
-          document
-            .querySelector(".menu-scroll.active")
-            ?.classList.remove("active");
-          currLink.classList.add("active");
-        } else {
-          currLink.classList.remove("active");
-        }
-      }
-    };
-
-    window.addEventListener("scroll", onScroll);
-
     return () => {
-      window.removeEventListener("scroll", onScroll);
+      pageLink.forEach((elem) => elem.removeEventListener("click", () => {}));
     };
-  }, []);
+  }, [router]);
 
   return (
     <div>
@@ -78,15 +61,6 @@ const Navbar = () => {
                   className="d hf yl zl dn oe vl th qd pc bc rl il h j ob el sk pm"
                 >
                   <ul className="ln fl">
-                    {/* <li className="e dj">
-                      <a
-                        href="#home"
-                        className="menu-scroll ug jh gj if _l gl am mb ea zk"
-                      >
-                        {" "}
-                        Home{" "}
-                      </a>
-                    </li> */}
                     <li className="e dj">
                       <a
                         href="#about"
@@ -127,38 +101,6 @@ const Navbar = () => {
                         Contact
                       </a>
                     </li>
-                    {/* <li className="e dj submenu-item">
-                      <a
-                        href="javascript:void(0)"
-                        className="ug jh gj if _l gl em fm mb ea zk _k vm e fi ki ji ni oi pi mi rm gi hi/2 li ii"
-                      >
-                        Pages
-                      </a>
-                      <div className="submenu ob e tk ec j uk g rd qm af el om rk ij sm tm oe bi ci">
-                        <a
-                          href="portfolio-details.html"
-                          className="kb vg jh sd ui jf df"
-                        >
-                          {" "}
-                          Portfolio Details Page{" "}
-                        </a>
-
-                        <a
-                          href="blog-grids.html"
-                          className="kb vg jh sd ui jf df"
-                        >
-                          {" "}
-                          Blog Grids Page{" "}
-                        </a>
-                        <a
-                          href="blog-details.html"
-                          className="kb vg jh sd ui jf df"
-                        >
-                          {" "}
-                          Blog Details Page{" "}
-                        </a>
-                      </div>
-                    </li> */}
                   </ul>
                 </nav>
               </div>

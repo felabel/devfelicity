@@ -1,9 +1,9 @@
 import { getProjects } from "@/lib/contentful";
+import Link from "next/link";
 
 const Portfolio = async () => {
   const projects = await getProjects();
 
-  console.log("projects", projects);
   return (
     <div>
       <section id="portfolio" className="ig jg se">
@@ -28,19 +28,19 @@ const Portfolio = async () => {
                   className="sm:font-semibold vg _j kb if pf ck ta td lh ri vi"
                   data-filter=".web"
                 >
-                  Web Design
+                  Websites
                 </button>
-                <button
+                {/* <button
                   className="sm:font-semibold vg _j kb if pf ck ta td lh ri vi"
                   data-filter=".graphics"
                 >
                   Graphics
-                </button>
+                </button> */}
                 <button
                   className="sm:font-semibold vg _j kb if pf ck ta td lh ri vi"
-                  data-filter=".app"
+                  data-filter=".webapp"
                 >
-                  App
+                  Web Apps
                 </button>
               </div>
             </div>
@@ -49,7 +49,50 @@ const Portfolio = async () => {
           <div className="portfolio-container mb kd ga">
             <div className="bc zm/12 df">
               <div className="items-wrapper mb hd kd ca">
-                <div className="bc ek/2 df item web app">
+                {projects.map((project) => {
+                  const { id, name, slug, shortDescription, thumbnail, tags } =
+                    project;
+
+                  const classNames = `bc ek/2 df item ${tags?.join(" ") || ""}`; // Join tags into a string
+                  return (
+                    <div key={id} className={classNames}>
+                      <div className="_a">
+                        <div className="e dj ma od wh vd">
+                          <img src={thumbnail} alt={name} className="bc" />
+                          {/* <div className="d bc qb f g pe xe mb id kd rh b ij ej ai">
+                            <a
+                              href={`/projects/${slug}`} // Dynamic link to project details
+                              className="glightbox hc ub mb id kd pe kh td"
+                            >
+                              <svg
+                                width="14"
+                                height="14"
+                                viewBox="0 0 14 14"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z"
+                                  fill="white"
+                                />
+                              </svg>
+                            </a>
+                          </div> */}
+                        </div>
+                        <h3 className="mt-6">
+                          <Link
+                            href={`/projects/${slug}`}
+                            className="fh jh ui zg lb ua"
+                          >
+                            {name}
+                          </Link>
+                        </h3>
+                        <p className="eh ug lh">{shortDescription}</p>
+                      </div>
+                    </div>
+                  );
+                })}
+                {/* <div className="bc ek/2 df item web app">
                   <div className="_a">
                     <div className="e dj ma od wh vd">
                       <img
@@ -91,8 +134,8 @@ const Portfolio = async () => {
                       Maecenas vitae dolor ultrices libero.
                     </p>
                   </div>
-                </div>
-                <div className="bc ek/2 df item graphics web">
+                </div> */}
+                {/* <div className="bc ek/2 df item graphics web">
                   <div className="_a">
                     <div className="e dj ma od wh vd">
                       <img
@@ -134,8 +177,8 @@ const Portfolio = async () => {
                       Maecenas vitae dolor ultrices libero.
                     </p>
                   </div>
-                </div>
-                <div className="bc ek/2 df item app">
+                </div> */}
+                {/* <div className="bc ek/2 df item app">
                   <div className="_a">
                     <div className="e dj ma od wh vd">
                       <img
@@ -220,7 +263,7 @@ const Portfolio = async () => {
                       Maecenas vitae dolor ultrices libero.
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -73,7 +73,7 @@ const Education = () => {
                     <p className="fh ug lh ua">Ushahidi | Nairobi, Kenya</p>
                     <span className="nb id kd if df td pe kh ah fh oa">
                       {" "}
-                      July 2024 - Present{" "}
+                      July 2024 - Dec 2024{" "}
                     </span>
                     <p className="eh ug lh">
                       As a Quality Assurance Tester at Ushahidi, I’m responsible
@@ -128,20 +128,20 @@ const Education = () => {
                 <div className="bc pl/2 df">
                   <div className="tl an bc mg uj em dl e bg">
                     <span className="d i g yk mc yb td oe yd he"></span>
-                    <h3 className="fh zg jh qa">Bachelor's Degree</h3>
-                    <p className="fh ug lh ua">Univerisity of Uyo | Nigeria</p>
+                    <h3 className="fh zg jh qa">Frontend Engineer</h3>
+                    <p className="fh ug lh ua">Parquest | Kansas city</p>
                     <span className="nb id kd if df td pe kh ah fh oa">
                       {" "}
-                      Jan. 2016 - May. 2021{" "}
+                      2021 - 2022{" "}
                     </span>
                     <p className="eh ug lh">
-                      A fullstack 1 year software engineering program
-                      specialized in backed. Skills include; Reactjs, Technical
-                      writing, Testing, nodesjs, Mongodb.
+                      I was part of the web application development team to
+                      manage and build an application where financial donations
+                      can be made
                     </p>
                   </div>
                 </div>
-                <div className="bc pl/2 df">
+                {/* <div className="bc pl/2 df">
                   <div className="tl an bc ib mg uj em gm cl im e bg">
                     <span className="d i g wk xk mc yb td oe yd he"></span>
                     <h3 className="fh zg jh qa">Frontend Engineer</h3>
@@ -158,7 +158,7 @@ const Education = () => {
                   </div>
                 </div>
                 <div className="bc pl/2 df"></div>
-                <div className="bc pl/2 df"></div>
+                <div className="bc pl/2 df"></div> */}
               </div>
             </div>
           </div>
