@@ -40,8 +40,9 @@ const Navbar = () => {
         <div className="a">
           <div className="mb ca id ld e">
             <div className="df cc oc">
-              <a href="/" className="header-logo bc kb ef xl">
-                <img src="/images/devfelz.svg" alt="logo" className="bc" />
+              <a href="/" className="header-logo bc kb ef xl logo-text">
+                {/* <img src="/images/devfelz.svg" alt="logo" className="bc" /> */}
+                Devfelz
               </a>
             </div>
             <div className="mb df ld id bc">

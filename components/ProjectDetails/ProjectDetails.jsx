@@ -219,7 +219,7 @@ const ProjectDetails = ({ project }) => {
                       Website
                       <span className="lh">:</span>
                     </span>
-                    <span className="bc eh lh ug qg em gn">
+                    <span className="bc eh lh ug qg em gn color">
                       {" "}
                       <a href={project.projectLink} target="_blank">
                         {project.companyLink}

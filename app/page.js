@@ -36,7 +36,7 @@ export default function Home() {
       {/* <CtaSection /> */}
       <Education />
       {/* <Pricing /> */}
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* <BlogSection /> */}
       <ContactSection />
     </>

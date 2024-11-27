@@ -687,13 +687,21 @@ input[type="checkbox"]:checked ~ label span svg{
 .sticky .header-logo{
   padding-top: 1rem;
   padding-bottom: 1rem;
+
+}
+.logo-text{
+  font-size: 28px;
+  font-weight: bold;
+  color: #6E2FE3;
 }
 @media (min-width: 960px){
 
   .sticky .header-logo{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    
   }
+  
 }
 .sticky .menu-scroll.active{
   --tw-text-opacity: 1;
@@ -2200,6 +2208,10 @@ input[type="checkbox"]:checked ~ label span svg{
 
   .gn{
     padding-left: 1.25rem;
+  }
+  .color{
+    color: #6E2FE3;
+
   }
 
   .hn{
