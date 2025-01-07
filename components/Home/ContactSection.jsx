@@ -11,13 +11,23 @@ const ContactSection = () => {
                 <span className="fh _g mh kb ta"> Contact With Me </span>
                 <h2 className="dh jh wg wj kk oa">Have an Project in Mind?</h2>
                 <p className="eh _g lh">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
+                  Got a bold idea? Let’s turn your vision into reality and
+                  create something extraordinary together!
                 </p>
               </div>
             </div>
           </div>
-          <div className="mb kd ga">
+          <div className="bc df">
+            <div className="pg sg">
+              <a
+                href="mailto:felicityabel99@gmail.com?subject=Let's%20Work%20Together!"
+                className="nb kd id sf tf td fh kh pe fa ai ci ei yi si"
+              >
+                Contact Me
+              </a>
+            </div>
+          </div>
+          {/* <div className="mb kd ga">
             <div className="bc ql/12 df">
               <form>
                 <div className="mb hd ga">
@@ -76,7 +86,7 @@ const ContactSection = () => {
                 </div>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
