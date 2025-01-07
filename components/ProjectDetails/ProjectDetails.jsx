@@ -2,7 +2,9 @@ import React from "react";
 
 const ProjectDetails = ({ project }) => {
   const { solutions, tags, date, myRole } = project;
-  const solutionsArray = solutions.split("\n").map((item) => item.trim());
+  const solutionsArray = solutions
+    ? solutions.split("\n").map((item) => item.trim())
+    : "";
   const roleArray = myRole.split("\n").map((item) => item.trim());
 
   const formattedDate = new Date(date).toLocaleDateString("en-US", {
@@ -142,20 +144,24 @@ const ProjectDetails = ({ project }) => {
                   occaecat cupidatat.
                 </p> */}
                 <p className="ug xj jm hn lh la">{project.about}</p>
-                <h4 className="dh zg yj km in jh ma">
-                  <span className="mh">01.</span>Solutions
-                </h4>
-                <p className="ug xj jm hn lh la">
-                  These are the values and solutions that {project.name}{" "}
-                  provides;
-                </p>
-                <ul className="qn fd gd jb">
-                  {solutionsArray.map((solution, index) => (
-                    <li className="ug xj jm hn mh ua" key={index}>
-                      <span className="lh"> {solution} </span>
-                    </li>
-                  ))}
-                </ul>
+                {solutions && (
+                  <>
+                    <h4 className="dh zg yj km in jh ma">
+                      <span className="mh">01.</span>Solutions
+                    </h4>
+                    <p className="ug xj jm hn lh la">
+                      These are the values and solutions that {project.name}{" "}
+                      provides;
+                    </p>
+                    <ul className="qn fd gd jb">
+                      {solutionsArray.map((solution, index) => (
+                        <li className="ug xj jm hn mh ua" key={index}>
+                          <span className="lh"> {solution} </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                )}
 
                 <h4 className="dh zg yj km in jh ma">
                   <span className="mh">02.</span> My Role
