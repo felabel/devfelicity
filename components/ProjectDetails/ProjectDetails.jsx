@@ -12,7 +12,6 @@ const ProjectDetails = ({ project }) => {
     day: "numeric",
     year: "numeric",
   });
-  console.log("title", solutionsArray);
 
   return (
     <div>

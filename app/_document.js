@@ -24,8 +24,6 @@ class MyDocument extends Document {
                 const pageLink = document.querySelectorAll('.menu-scroll');
                 pageLink.forEach((elem) => {
                   elem.addEventListener('click', (e) => {
-                        console.log('Menu item clicked:', elem);
-
                     e.preventDefault();
                     document.querySelector(elem.getAttribute('href')).scrollIntoView({
                       behavior: 'smooth',

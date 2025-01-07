@@ -5,7 +5,6 @@ const Navbar = () => {
   const router = useRouter();
 
   useEffect(() => {
-    console.log("Menu scroll script loaded");
     const pageLink = document.querySelectorAll(".menu-scroll");
 
     pageLink.forEach((elem) => {
@@ -23,7 +22,6 @@ const Navbar = () => {
           });
         } else {
           // If the section doesn't exist, navigate to the homepage with a query parameter
-          console.log("Navigating to homepage for:", target);
           router.push(`/${target}`);
         }
       });

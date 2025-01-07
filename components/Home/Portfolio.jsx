@@ -47,7 +47,7 @@ const Portfolio = async () => {
                   const { id, name, slug, shortDescription, thumbnail, tags } =
                     project;
 
-                  const classNames = `bc ek/2 df item ${tags?.join(" ") || ""}`; // Join tags into a string
+                  const classNames = `bc ek/2 df item ${tags?.join(" ") || ""}`;
                   return (
                     <div key={id} className={classNames}>
                       <div className="_a">

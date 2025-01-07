@@ -21,11 +21,6 @@ export default function BackToTop() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-
-  if (isVisible) {
-    console.log("show top");
-  }
-
   return (
     isVisible && (
       <a
