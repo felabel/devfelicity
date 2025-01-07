@@ -30,12 +30,6 @@ const Portfolio = async () => {
                 >
                   Websites
                 </button>
-                {/* <button
-                  className="sm:font-semibold vg _j kb if pf ck ta td lh ri vi"
-                  data-filter=".graphics"
-                >
-                  Graphics
-                </button> */}
                 <button
                   className="sm:font-semibold vg _j kb if pf ck ta td lh ri vi"
                   data-filter=".webapp"
