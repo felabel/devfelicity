@@ -137,11 +137,6 @@ const ProjectDetails = ({ project }) => {
                 </div>
                 {/* <Carousel gallery={project.gallery} /> */}
                 <h3 className="dh jh yg wj lm jb">About the {project.name}</h3>
-                {/* <p className="ug xj jm hn lh ma">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat.
-                </p> */}
                 <p className="ug xj jm hn lh la">{project.about}</p>
                 {solutions && (
                   <>
