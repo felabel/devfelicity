@@ -13,6 +13,9 @@ const ProjectDetails = ({ project }) => {
     year: "numeric",
   });
 
+  console.log("solutions", solutions);
+  console.log("role", myRole);
+  console.log("role", myRole);
   return (
     <div>
       <section className="e z yf dg za od">
